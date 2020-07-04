@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   application:
     name: feign-consumer-group # 应用名称，会在Eureka中显示
@@ -36,7 +36,7 @@ hystrix:
 management:
   endpoint:
     health:
-      show-details: always #显示熔断器详细信息 http://127.0.0.1:8001/actuator/health
+      show-details: always #显示熔断器详细信息 http://127.0.0.1:8002/actuator/health
     web:
       exposure:
         include: hystrix.stream
