@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Feign-SDK/pom.xml" />
         <option value="$PROJECT_DIR$/Feign-Consumer-2/pom.xml" />
         <option value="$PROJECT_DIR$/Feign-Provider-1/pom.xml" />
+        <option value="$PROJECT_DIR$/Feign-Zuul/pom.xml" />
       </list>
     </option>
   </component>
